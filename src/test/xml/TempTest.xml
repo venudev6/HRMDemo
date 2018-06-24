@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite 1" verbose="1" >
+    <parameter name="ifGrid" value="false"/>
+    <parameter name="browser" value="ff"/>
+    <parameter name = "baseURL" value ="http://opensource.demo.orangehrmlive.com/index.php"/>
+    <test name="Test 1" >
+        <classes>
+            <class name="HRMTests.TempTest"/>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="config.listeners.TestListener"/>
+    </listeners>
+
+</suite>

@@ -6,11 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="revisionSel" />
+        <module name="HRMDemo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="revisionSel" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>

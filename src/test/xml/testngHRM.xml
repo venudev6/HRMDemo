@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite 1" verbose="1" >
+    <parameter name="ifGrid" value="false"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="startMinimized" value="no"/>
+    <parameter name = "baseURL" value ="http://opensource.demo.orangehrmlive.com/index.php"/>
+    <test name="Testng XML Test 1 " >
+        <classes>
+            <class name="HRMTests.LoginHRMTests"/>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="config.listeners.TestListener"/>
+    </listeners>
+
+</suite>

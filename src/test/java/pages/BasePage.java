@@ -1,18 +1,19 @@
 package pages;
 
-import com.fasterxml.jackson.databind.ser.Serializers;
-import config.MainLogger;
 import org.openqa.selenium.WebDriver;
 import org.testng.IConfigurable;
 import org.testng.IConfigureCallBack;
 import org.testng.ITestResult;
+import utilities.UIUtility;
 
 public class BasePage implements IConfigurable {
 
     protected long pageLoadStartTime;
     protected long pageLoadEndTime;
     protected final int PAGETIMEOUT =15;
+    protected final int AJAXPAGETIMEOUT=30;
     protected UIUtility uiUtility=null;
+    //WebDriver driver=null;
 
     public BasePage(WebDriver driver){
 
